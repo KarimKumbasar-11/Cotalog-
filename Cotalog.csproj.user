@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Projects\CreateProjectPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Admin\UsersManagementPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Auth\LoginWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Auth\RegistrationWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Mainpage\ProjectDetailsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Mainpage\ProjectsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Projects\ProjectsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Projects\CreateProjectPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Admin\UsersManagementPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Mainpage\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Auth\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Auth\RegistrationWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Mainpage\ProjectDetailsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Mainpage\ProjectsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Projects\ProjectsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
